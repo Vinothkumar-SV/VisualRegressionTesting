@@ -1,0 +1,60 @@
+report({
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_BackstopJS_Homepage_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20250530-161241\\backstop_default_BackstopJS_Homepage_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_BackstopJS_Homepage_0_document_0_phone.png",
+        "label": "BackstopJS Homepage",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "https://www.amazon.in/",
+        "referenceUrl": "",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 328
+          },
+          "rawMisMatchPercentage": 45.3206015037594,
+          "misMatchPercentage": "45.32",
+          "analysisTime": 308
+        },
+        "diffImage": "..\\bitmaps_test\\20250530-161241\\failed_diff_backstop_default_BackstopJS_Homepage_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_BackstopJS_Homepage_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20250530-161241\\backstop_default_BackstopJS_Homepage_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_BackstopJS_Homepage_0_document_1_tablet.png",
+        "label": "BackstopJS Homepage",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "https://www.amazon.in/",
+        "referenceUrl": "",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": -331
+          },
+          "rawMisMatchPercentage": 40.06182938794255,
+          "misMatchPercentage": "40.06",
+          "analysisTime": 409
+        },
+        "diffImage": "..\\bitmaps_test\\20250530-161241\\failed_diff_backstop_default_BackstopJS_Homepage_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    }
+  ],
+  "id": "backstop_default"
+});
